@@ -61,6 +61,7 @@ void bullets::destroy(char model, int x,int y)
 	}
 	else if (model == 'O')
 	{
-		
+		setPos(temp);
+		std::cout << "O";
 	}
 }
